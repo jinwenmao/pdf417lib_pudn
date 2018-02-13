@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pdf417 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\lhr\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+/nologo /Zp1 /MLd /Za /W3 /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\最近工作\一些条形码识别与解码程序\pdf417lib-c-0.90\pdf417.c"
+"D:\最近工作\一些条形码识别与解码程序\pdf417lib-c-0.90\pdf417lib.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lhr\LOCALS~1\Temp\RSP12.tmp" 
+Creating temporary file "C:\DOCUME~1\lhr\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Debug/pdf417.pdb" /debug /machine:I386 /out:"Debug/pdf417.exe" /pdbtype:sept 
+".\Debug\pdf417.obj"
+".\Debug\pdf417lib.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\lhr\LOCALS~1\Temp\RSP13.tmp"
+<h3>Output Window</h3>
+Compiling...
+pdf417.c
+pdf417lib.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+pdf417.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
